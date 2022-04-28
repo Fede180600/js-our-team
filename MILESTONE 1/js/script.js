@@ -35,3 +35,9 @@ const team = [
       image: 'barbara-ramos-graphic-designer.jpg',
     },
   ];
+
+  // Imposto un ciclo per scorrere tutti gli oggetti dell'arrey
+  for (let key in team) {
+      console.log(team[key]);
+  };
+  console.log(team);
